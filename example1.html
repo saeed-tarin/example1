@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <form id="formElements"  class="modal-content">
+      
+      <div class="imgcontainer">
+        <p id="msg1"></p>
+      </div>
+
+      <div class="container">
+        <label for="fname"><b>نام</b></label>
+        <input type="text" id="fname1" placeholder="*نام را وارد کنید" name="fname" onchange="" required>
+
+        <label for="lname"><b>نام خانوادگی</b></label>
+        <input type="text" id="lname1" placeholder="*نام خانوادگی را وارد کنید" name="lname" required>
+
+        <label for="email"><b>ایمیل</b></label>
+        <input type="text" id="email1" placeholder="*ایمیل را وارد کنید" name="email" required>
+
+        <label for="psw"><b>رمزعبور</b></label>
+        <input type="password" id="pass1" placeholder="*رمز عبور را وارد کنید" name="psw" required>
+
+        <label for="psw"><b>تکرار رمز عبور</b></label>
+        <input type="password" id="pass2" placeholder="*تکرار رمز عبور را وارد کنید " name="psw1" required>
+
+        <button onclick="isValidate(event)">ارسال</button>
+        <label>
+      </div>
+
+    </form>
+    <script src="dist/main.js"></script>
+  </body>
+
+</html>
